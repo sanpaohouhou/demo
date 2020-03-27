@@ -37,4 +37,16 @@
          // 调用方法之后执行
          System.out.println("环绕通知: 调用方法之后执行");
      }
+
+
+     结果
+
+      前置通知: 在方法之前执行...
+         Exception in thread "main" 环绕通知: 调用方法之前执行
+         正在添加数据
+         后置通知: 在方法之后执行...
+         异常通知: 异常抛出执行
+         java.lang.ArithmeticException: / by zero
+             at com.wulei.service.UserService.add(UserService.java:16)
+
 }
