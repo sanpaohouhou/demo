@@ -49,4 +49,6 @@
          java.lang.ArithmeticException: / by zero
              at com.wulei.service.UserService.add(UserService.java:16)
 
+
+
 }
